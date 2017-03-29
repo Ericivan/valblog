@@ -178,6 +178,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*自定义初始provider*/
+        \Dingo\Api\Provider\LaravelServiceProvider::class,
+
+
     ],
 
     /*
